@@ -50,7 +50,7 @@ All notes and ratings are stored forever on-chain.
 
 The Factchain web browser extension is responsible for crafting the transactions and connecting to MetaMask for signature and broadcasting. More wallet compatibility will come.
 
- ⚠️ _Please exercise caution when downloading the FactChain extension to avoid potential fraudulent versions that might generate malicious transactions._ ⚠️
+_Please exercise caution when downloading the FactChain extension to avoid potential fraudulent versions that might generate malicious transactions._ ⚠️
 
 **4 - Rewards & Slash**
 
