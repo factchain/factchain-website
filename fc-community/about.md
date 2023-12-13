@@ -20,4 +20,3 @@ You can find the source code for Factchain Community in its [GitHub repository](
 <li> <a href="https://twitter.com/YBadiss">Yacine B. Badiss</a></li>
 <li> <a href="https://twitter.com/rektorship">Pierre HAY</a></li>
 <li> <a href="https://twitter.com/copeverse">Baptiste Iafrate</a></li>
-

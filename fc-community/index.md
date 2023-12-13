@@ -67,7 +67,7 @@ _Please exercise caution when downloading the FactChain extension to avoid poten
 
 In a set period after the note creation (i.e., the note auction period), the protocol runs the scoring algorithm to assign the note its final rating. When a note surpasses the earning threshold, the protocol returns the creator's initial stake along with a reward, computed in WEI using the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L113C20-L113C20). Conversely, if a note falls below the earning threshold, the protocol returns the initial stake with a slight reduction, expressed as a slash in WEI through the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L120). The raters are rewarded or slashed based on how close their rating is to the final score.
 
-**Disclaimer$> For the launch on testnet, we oversimplified the scoring algorithm to an average of all note ratings, set the note auction period to 48 hours, and fixed the earning threshold arbitrarily to 3. The reward and slash logic could also evolve before the Factchain launch on mainnet. We expect to learn from users to develop the ideal strategy.**
+**Disclaimer $> For the launch on testnet, we oversimplified the scoring algorithm to an average of all note ratings, set the note auction period to 48 hours, and fixed the earning threshold arbitrarily to 3. The reward and slash logic could also evolve before the Factchain launch on mainnet. We expect to learn from users to develop the ideal strategy.**
 
 **5 - Collect Factchain Truth Fragments**
 
