@@ -29,13 +29,24 @@ Make it count, Make it fun, Make it worth it.
 Join the faction.
 
 **2 - Getting Started**
-
-* Download the browser extension (compatible with Chrome and Brave)
-* Download Metamask
-* Create a Sepolia account (Factchain is only available on testnet - mainnet coming soon). You can get some test ETH [here](https://sepoliafaucet.com/).
-* Visit [X](https://twitter.com/home). More socials will come ([Warpcast](https://warpcast.com/), [YouTube](https://www.youtube.com/) ...)
-* Connect your Sepolia account to MetaMask.
-* Enjoy a refreshing social network experience enriched with community notes.
+<li>
+Download the browser extension (compatible with Chrome and Brave)
+</li>
+<li>
+Download Metamask
+</li>
+<li>
+Create a Sepolia account (Factchain is only available on testnet, mainnet is coming). <a href="https://sepoliafaucet.com/">Get some test ETH</a>.
+</li>
+<li>
+Visit <a href="https://twitter.com/home">X</a> More socials will come (<a href="https://warpcast.com/">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
+</li>
+<li>
+Connect your Sepolia account to MetaMask.
+</li>
+<li>
+Enjoy a refreshing social network experience enriched with community notes.
+</li>
 <br/><br/>
 
 **3 - Create/Rate a Note**
@@ -50,20 +61,20 @@ All notes and ratings are stored forever on-chain.
 
 The Factchain web browser extension is responsible for crafting the transactions and connecting to MetaMask for signature and broadcasting. More wallet compatibility will come.
 
-_Please exercise caution when downloading the FactChain extension to avoid potential fraudulent versions that might generate malicious transactions._ ⚠️
+_Please exercise caution when downloading the FactChain extension to avoid potential fraudulent versions that might generate malicious transactions_ ⚠️
 
 **4 - Rewards & Slash**
 
 In a set period after the note creation (i.e., the note auction period), the protocol runs the scoring algorithm to assign the note its final rating. When a note surpasses the earning threshold, the protocol returns the creator's initial stake along with a reward, computed in WEI using the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L113C20-L113C20). Conversely, if a note falls below the earning threshold, the protocol returns the initial stake with a slight reduction, expressed as a slash in WEI through the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L120). The raters are rewarded or slashed based on how close their rating is to the final score.
 
-**Disclaimer: For the launch on testnet, we oversimplified the scoring algorithm to an average of all note ratings, set the note auction period to 48 hours, and fixed the earning threshold arbitrarily to 3. The reward and slash logic could also evolve before the Factchain launch on mainnet. We expect to learn from users to develop the ideal strategy.**
+**Disclaimer$> For the launch on testnet, we oversimplified the scoring algorithm to an average of all note ratings, set the note auction period to 48 hours, and fixed the earning threshold arbitrarily to 3. The reward and slash logic could also evolve before the Factchain launch on mainnet. We expect to learn from users to develop the ideal strategy.**
 
 **5 - Collect Factchain Truth Fragments**
 
 After the note finalization phase, Factchain automatically sends an NFT to the creator, regardless of the final score. The NFT is an ERC-721 token with the following metadata pushed to IPFS:
 
-* unique AI-generated image from the note
-* attributes (note final score, social media post URL) on the [OpenSea metadata standards](https://docs.opensea.io/docs/metadata-standards).
+<li>unique AI-generated image from the note</li>
+<li>attributes (note final score, social media post URL) on the <a href="https://docs.opensea.io/docs/metadata-standards">Opensea metadata standards</a></li>
 
 <br/><br/>
 {:refdef: style="text-align: center;"}
