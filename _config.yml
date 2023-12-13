@@ -1,0 +1,19 @@
+title: 'blackthorne18.github.io'
+baseurl: '' 
+url: "https://blackthorne18.github.io"
+
+header_pages:
+  - index.md
+  - work.md
+  - scicom.md
+  - blog.md
+  - about.md
+  - contact.md
+
+style: dark
+footer: 'signed p.v.b'
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
+# remote_theme: Squifi/jekyll-theme-terminal
