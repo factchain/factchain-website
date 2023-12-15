@@ -25,7 +25,6 @@ Passive and active factchainers enjoy an augmented vision of their favorite soci
 
 Factchain Community rewards note creators with a unique NFT tradable on Opensea and Blur. Want to collect truth fragments that contradict influential personalities? More details will follow in chapter 5. Factchain Community is an excellent opportunity to earn ETH while serving the public interest.
 
-Make it count, Make it fun, Make it worth it.
 Join the faction.
 
 **2 - Getting Started**
@@ -53,9 +52,7 @@ Join the faction.
 
 **3 - Create/Rate a Note**
 
-A note is a text that complements a social media post identified by a URL.
-A rating is a number between 1 and 5 to judge the usefulness of a note.
-A factchainer can rate the same note only once and can't rate their own note.
+A note is a text that complements a social media post identified by a URL. A rating is a number between 1 and 5 to judge the usefulness of a note. A factchainer can rate the same note only once and can't rate their own note.
 
 Creating a note, like leaving a rating, triggers an Ethereum transaction to execute the relevant function from the [FactChainCommunity](https://sepolia.etherscan.io/address/0xb912368c62D3037F7E86C2e95D9B5F4FC86c9428) smart contract. These functions require a stake: 0.001 ETH (~= $20) for a note and 0.0001 ETH (~= $2) for a rating. The funds remain locked in the contract until the note auction period concludes, during which ratings are accepted.
 
@@ -63,7 +60,7 @@ All notes and ratings are stored forever on-chain.
 
 The Factchain web browser extension is responsible for crafting the transactions and connecting to MetaMask for signature and broadcasting. More wallet compatibility will come.
 
-_Please exercise caution when downloading the FactChain extension to avoid potential fraudulent versions that might generate malicious transactions_ ⚠️
+_Please exercise caution when downloading the Factchain extension to avoid potential fraudulent versions that might generate malicious transactions_ ⚠️
 
 **4 - Rewards & Slash**
 
@@ -91,14 +88,14 @@ After the note finalization phase, Factchain automatically sends an NFT to the c
 
 **Bonus - Mint X community notes to support authors**
 
-To introduce Factchain to a broader audience, we have enabled the minting of every X community note as ERC-1155 tokens. Each community note is identified by its unique URL [https://twitter.com/i/birdwatch/n/](https://twitter.com/i/birdwatch/n/)\<noteID\> mapping to an NFTs collection on-chain, with a random token supply ranging from 1 to 42. Minting one or several of them does not grant any creatorship on the note but makes you one of the happy few owners of its bound Factchain NFT, with attributes described in chapter 5. (AI-generated image, OpenSea-compliant metadata)
+To introduce Factchain to a broader audience, we have enabled the minting of every X community note as ERC-1155 tokens. Each community note is identified by its unique URL [https://twitter.com/i/birdwatch/n/](https://twitter.com/i/birdwatch/n/)\<noteID\> mapping to an NFTs collection on-chain, with a random token supply ranging from 1 to 42. Minting one or several of them does not grant any creatorship on the note but makes you one of the happy few owners of its bound Factchain NFT, with attributes described in chapter 5 (AI-generated image, OpenSea-compliant metadata)
+Mint price starts at 0.0001 ETH (approximately 2.20 US dollars when writing).
 
-The mint price starts at 0.0001 ETH (approximately 2.20 US dollars when writing).
+The following screenshot shows a famous X community note enriched with the **Mint it** button from the Factchain browser extension. Click and mint this [banger](https://twitter.com/i/birdwatch/n/1730273287358263482).
 <br/><br/>
 {:refdef: style="text-align: center;"}
 ![](assets/mint_it.png)
 {: refdef}
 <br/><br/>
-
-X community notes authors are anonymous. Factchain can't derive an X user ID from an X community note author ID.
-Until the community finds the best ZKP solution to automate the claiming process, If you're an author, please reach out to claim your rewards at $> **contact at factchain.tech** ⭐
+X community notes' authors are anonymous. Factchain can't derive an X user ID from an X community note author ID.
+Until the community finds a smooth ZKP solution to automate the claiming process, if you're the author, please reach out to claim your rewards $> **contact at factchain.tech** ⭐
