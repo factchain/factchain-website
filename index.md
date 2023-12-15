@@ -11,7 +11,7 @@ Factchain Community
 
 # **A decentralized approach to combating online misinformation**
 <br/><br/>Misinformation on social media is a growing threat to the user experience, and centralized efforts have yet to prove helpful in flagging it efficiently. The most innovative solution so far is the **community notes feature on X**, which appeared roughly a year ago, enabling users to submit contextual notes to any post and rate other users' notes based on their **usefulness**. An open-source algorithm periodically assigns scores to notes based on their ratings. Only notes above a given score are visible to all users.
-[Read this excellent article by Vitalik to learn more about community notes](https://vitalik.eth.limo/general/2023/08/16/communitynotes.html).
+[Read this excellent article by Vitalik to learn more on community notes](https://vitalik.eth.limo/general/2023/08/16/communitynotes.html).
 
 X's community notes have opened the way. Still, social media posts deserve an independent and global truth layer that supports all social platforms, with immutable and transparent contributions and no central authority to trust. The protocol should incentivize users to provide notes and ratings. This is Factchain Community.
 
@@ -40,7 +40,7 @@ Join the faction.
     Create a Sepolia account (Factchain is only available on testnet, mainnet is coming). <a href="https://sepoliafaucet.com/">Get some test ETH</a>.
 </li>
 <li>
-    Visit <a href="https://twitter.com/home">X</a> More socials will come (<a href="https://warpcast.com/">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
+    Visit <a href="https://twitter.com/home">X</a>. More socials will come (<a href="https://warpcast.com/">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
 </li>
 <li>
     Connect your Sepolia account to MetaMask.
@@ -89,8 +89,16 @@ After the note finalization phase, Factchain automatically sends an NFT to the c
 {: refdef}
 <br/><br/>
 
-**Bonus - Mint X community notes**
+**Bonus - Mint X community notes to support authors**
 
 To introduce Factchain to a broader audience, we have enabled the minting of every X community note as ERC-1155 tokens. Each community note is identified by its unique URL [https://twitter.com/i/birdwatch/n/](https://twitter.com/i/birdwatch/n/)\<noteID\> mapping to an NFTs collection on-chain, with a random token supply ranging from 1 to 42. Minting one or several of them does not grant any creatorship on the note but makes you one of the happy few owners of its bound Factchain NFT, with attributes described in chapter 5. (AI-generated image, OpenSea-compliant metadata)
 
 The mint price starts at 0.0001 ETH (approximately 2.20 US dollars when writing).
+<br/><br/>
+{:refdef: style="text-align: center;"}
+![](assets/mint_it.png)
+{: refdef}
+<br/><br/>
+
+X community notes authors are anonymous. Factchain can't derive an X user ID from an X community note author ID.
+Until the community finds the best ZKP solution to automate the claiming process, If you're an author, please reach out to claim your rewards at $> **contact at factchain.tech** ⭐
