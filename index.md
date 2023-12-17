@@ -91,7 +91,7 @@ After the note finalization phase, Factchain automatically sends an NFT to the c
 To introduce Factchain to a broader audience, we have enabled the minting of every X community note as ERC-1155 tokens. Each community note is identified by its unique URL [https://twitter.com/i/birdwatch/n/](https://twitter.com/i/birdwatch/n/)\<noteID\> mapping to an NFTs collection on-chain, with a random token supply ranging from 1 to 42. Minting one or several of them does not grant any creatorship on the note but makes you one of the happy few owners of its bound Factchain NFT, with attributes described in chapter 5 (AI-generated image, OpenSea-compliant metadata)
 Mint price starts at 0.0001 ETH (approximately 2.20 US dollars when writing).
 
-The following screenshot shows a famous X community note enriched with the **Mint it** button from the Factchain browser extension. Click and mint this [banger](https://twitter.com/i/birdwatch/n/1730273287358263482).
+The following screenshot shows a famous X community note enhanced with the **Mint it** button from the Factchain browser extension. Click and mint this [gem 💎](https://twitter.com/i/birdwatch/n/1730273287358263482)
 <br/><br/>
 {:refdef: style="text-align: center;"}
 ![](assets/mint_it.png)
