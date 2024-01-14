@@ -6,24 +6,24 @@ layout: home
 ---
 
 <font size="10">
-Factchain Community 
+Factchain 
 </font>
 
 # **A decentralized approach to combating online misinformation**
 <br/><br/>Misinformation on social media is a growing threat to the user experience, and centralized efforts have yet to prove helpful in flagging it efficiently. The most innovative solution so far is the **community notes feature on X**, which appeared roughly a year ago, enabling users to submit contextual notes to any post and rate other users' notes based on their **usefulness**. An open-source algorithm periodically assigns scores to notes based on their ratings. Only notes above a given score are visible to all users.
 [Read this excellent article by Vitalik to learn more on community notes](https://vitalik.eth.limo/general/2023/08/16/communitynotes.html).
 
-X's community notes have opened the way. Still, social media posts deserve an independent and global truth layer that supports all social platforms, with immutable and transparent contributions and no central authority to trust. The protocol should incentivize users to provide notes and ratings. This is Factchain Community.
+X's community notes have opened the way. Still, social media posts deserve an independent and global truth layer that supports all social platforms, with immutable and transparent contributions and no central authority to trust. The protocol should incentivize users to provide notes and ratings. This is Factchain.
 
 **1 - Why become a Factchainer?**
 
 Active factchainers are truth guardians, putting their ETH where their mouth is. They are rewarded when they act honestly and slashed otherwise. More details will follow in chapter 3.
 
-These economic incentives help secure the protocol, discouraging the collusion of malicious actors willing to push lousy content. Factchain Community is a fact-checking social protocol, meaning there is no room for subjectivity. It should prioritize notes supported by one or more external links to credible sources, convincingly demonstrating their accuracy.
+These economic incentives help secure the protocol, discouraging the collusion of malicious actors willing to push lousy content. Factchain is a fact-checking social protocol, meaning there is no room for subjectivity. It should prioritize notes supported by one or more external links to credible sources, convincingly demonstrating their accuracy.
 
 Passive and active factchainers enjoy an augmented vision of their favorite social networks. They view posts with community notes and are consequently less subject to misinformation.
 
-Factchain Community rewards note creators with a unique NFT tradable on Opensea and Blur. Want to collect truth fragments that contradict influential personalities? More details will follow in chapter 5. Factchain Community is an excellent opportunity to earn ETH while serving the public interest.
+Factchain rewards note creators with a unique NFT tradable on Opensea and Blur. Want to collect truth fragments that contradict influential personalities? More details will follow in chapter 5. Factchain is an excellent opportunity to earn ETH while serving the public interest.
 
 Join the faction.
 
