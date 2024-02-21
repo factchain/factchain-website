@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The Factchain is a fact-checking social protocol settled on the public Ethereum blockchain. With an open-source browser extension as its only UI, it brings collectible facts to your social network feed.
+Factchain is a fact-checking social protocol settled on the public Ethereum blockchain. With an open-source browser extension as its only UI, it brings collectible facts to your social network feed.
 
 It was launched on the Sepolia testnet on February 29, 2024, with the mainnet release to be announced (TBA)
 
