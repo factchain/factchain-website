@@ -23,29 +23,31 @@ These economic incentives help secure the protocol, discouraging the collusion o
 
 Passive and active factchainers enjoy an augmented vision of their favorite social networks. They view posts with community notes and are consequently less subject to misinformation.
 
-Factchain rewards note creators with a unique NFT tradable on Opensea and Blur. Want to collect truth fragments that contradict influential personalities? More details will follow in chapter 5. Factchain is an excellent opportunity to earn ETH while serving the public interest.
+Factchain rewards note creators with an original NFT-721. Raters receive a semi-fungible copy on the ERC-1155 standard. Both tokens are tradeable on Opensea and Blur.
+
+Want to collect truth fragments that contradict influential personalities? More details will follow in chapter 5. Use Factchain to earn ETH while serving the public interest.
 
 Join the faction.
 
 **2 - Getting Started**
 <ul class='container' style='display list-item;'>
 <li>
-    Download the browser extension (compatible with Chrome and Brave)
+    <a href="https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl">Download the Factchain browser extension</a>
 </li>
 <li>
-    Download Metamask
+    <a href="https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr">Download the Metamask browser extension</a>
 </li>
 <li>
-    Create a Sepolia account (Factchain is only available on testnet, mainnet is coming). <a href="https://sepoliafaucet.com/">Get some test ETH</a>.
+    Create a Sepolia account (Factchain is only available on testnet, mainnet is coming)
+</li>
+<li>
+    <a href="https://sepoliafaucet.com/">Get some test ETH</a>
 </li>
 <li>
     Visit <a href="https://twitter.com/home">X</a>. More socials will come (<a href="https://warpcast.com/">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
 </li>
 <li>
-    Connect your Sepolia account to MetaMask.
-</li>
-<li>
-    Enjoy a refreshing social network experience enriched with community notes.
+    Enjoy a refreshing social network experience enriched with community notes
 </li>
 </ul>
 <br>
@@ -54,19 +56,19 @@ Join the faction.
 
 A note is a text that complements a social media post identified by a URL. A rating is a number between 1 and 5 to judge the usefulness of a note. A factchainer can rate the same note only once and can't rate their own note.
 
-Creating a note, like leaving a rating, triggers an Ethereum transaction to execute the relevant function from the [FactChainCommunity](https://sepolia.etherscan.io/address/0xb912368c62D3037F7E86C2e95D9B5F4FC86c9428) smart contract. These functions require a stake: 0.001 ETH (~= $20) for a note and 0.0001 ETH (~= $2) for a rating. The funds remain locked in the contract until the note auction period concludes, during which ratings are accepted.
+Creating a note, like leaving a rating, triggers an Ethereum transaction to execute the relevant function from the [Factchain Core](https://sepolia.etherscan.io/address/0x3b5946b3bd79c2B211E49c3149872f1d66223AE7) smart contract. These functions require a stake: 0.001 ETH (~= $20) for a note and 0.0001 ETH (~= $2) for a rating. The funds remain locked in the contract until the note auction period concludes, during which ratings are accepted.
 
 All notes and ratings are stored forever on-chain.
 
 The Factchain web browser extension is responsible for crafting the transactions and connecting to MetaMask for signature and broadcasting. More wallet compatibility will come.
 
-_Please exercise caution when downloading the Factchain extension to avoid potential fraudulent versions that might generate malicious transactions_ ⚠️
+_Please exercise caution when downloading the Factchain extension to avoid potential fraudulent versions that might generate malicious transactions. Only download the [official extension](https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl)._ ⚠️
 
 **4 - Rewards & Slash**
 
 In a set period after the note creation (i.e., the note auction period), the protocol runs the scoring algorithm to assign the note its final rating. When a note surpasses the earning threshold, the protocol returns the creator's initial stake along with a reward, computed in WEI using the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L113C20-L113C20). Conversely, if a note falls below the earning threshold, the protocol returns the initial stake with a slight reduction, expressed as a slash in WEI through the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L120). The raters are rewarded or slashed based on how close their rating is to the final score.
 
-**Disclaimer $> For the launch on testnet, we oversimplified the scoring algorithm to an average of all note ratings, set the note auction period to 48 hours, and fixed the earning threshold arbitrarily to 3. The reward and slash logic could also evolve before the Factchain launch on mainnet. We expect to learn from users to develop the ideal strategy.**
+**Disclaimer $> For the launch on testnet, we oversimplified the scoring algorithm to an average of all note ratings, set the note auction period to one hour, and fixed the earning threshold arbitrarily to 3. The reward and slash logic could also evolve before the launch on mainnet.**
 
 **5 - Collect Factchain Truth Fragments**
 
@@ -86,10 +88,13 @@ After the note finalization phase, Factchain automatically sends an NFT to the c
 {: refdef}
 <br/><br/>
 
-**Bonus - Mint X community notes to support authors**
+**6 - Support Factchain note creators**
 
-To introduce Factchain to a broader audience, we have enabled the minting of every X community note as ERC-1155 tokens. Each community note is identified by its unique URL [https://twitter.com/i/birdwatch/n/](https://twitter.com/i/birdwatch/n/)\<noteID\> mapping to an NFTs collection on-chain, with a random token supply ranging from 1 to 42. Minting one or several of them does not grant any creatorship on the note but makes you one of the happy few owners of its bound Factchain NFT, with attributes described in chapter 5 (AI-generated image, OpenSea-compliant metadata)
-Mint price starts at 0.0001 ETH (approximately 2.20 US dollars when writing).
+Factchain rewards the note creator with a unique original NFT and all raters with a copy. It's like facts litography. Everyone can mint a copy for a few bucks, showing support to the protocol and the creator + buying a lottery ticket. Supply is limited to 42.
+
+**7 - Support X community notes authors**
+
+To introduce Factchain to a broader audience, we have enabled the minting of every X community note as ERC-1155 tokens. Each community note is identified by its unique URL [https://twitter.com/i/birdwatch/n/](https://twitter.com/i/birdwatch/n/)\<noteID\> mapping to an NFTs collection on-chain, with a random token supply ranging from 1 to 42. Minting one or several of them does not grant any creatorship on the note but makes you one of the happy few owners of its bound XFactchain NFT, with attributes described in chapter 5. Mint price starts at 0.001 ETH.
 
 The following screenshot shows a famous X community note enhanced with the **Mint it** button from the Factchain browser extension. Click and mint this [gem 💎](https://twitter.com/i/birdwatch/n/1730273287358263482)
 <br/><br/>
