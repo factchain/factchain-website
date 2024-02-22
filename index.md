@@ -90,7 +90,17 @@ After the note finalization phase, Factchain automatically sends an NFT to the c
 
 **6 - Support Factchain note creators**
 
-Factchain rewards the note creator with a unique original NFT and all raters with a copy. It's like facts litography. Everyone can mint a copy for a few bucks, showing support to the protocol and the creator + buying a lottery ticket. Supply is limited to 42.
+Factchain's reward system grants the note creator a unique original NFT and all raters a copy, called [fact lithography](https://github.com/factchain/factchain-community/blob/c00d39ffd4afbf375c077a9e6f625e113433bfe1/fc-community-contracts/src/FactchainNFT.sol#L26C18-L26C34) for the hype. Anyone can mint one for a few bucks, supporting the creator and protocol. Supply is limited to 42. Only Deep Thought knows why.
+
+<br/><br/>
+{:refdef: style="text-align: center;"}
+![](assets/mint_fact_litography.png)
+{: refdef}
+<br/><br/>
+
+Here is the [origial](https://testnets.opensea.io/assets/sepolia/0xf9408eb2c2219e28aefb32035c49d491880650a2/5). Here is a [litography](https://testnets.opensea.io/assets/sepolia/0xf9408eb2c2219e28aefb32035c49d491880650a2/5).
+
+When launching on mainnet, both hodlers will gain access to the factchainers token-gated group chat on Farcaster.
 
 **7 - Support X community notes authors**
 
