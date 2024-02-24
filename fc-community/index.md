@@ -6,31 +6,24 @@ layout: home
 ---
 
 <font size="5">
-Factchain Community 
+Factchain 
 </font>
 
-# **A decentralized approach to combating online misinformation**
-<br/><br/>Misinformation on social media is a growing threat to the user experience, and centralized efforts have yet to prove helpful in flagging it efficiently. The most innovative solution so far is the **community notes feature on X**, which appeared roughly a year ago, enabling users to submit contextual notes to any post and rate other users' notes based on their **usefulness**. An open-source algorithm periodically assigns scores to notes based on their ratings. Only notes above a given score are visible to all users.
-[Read this excellent article by Vitalik to learn more about community notes](https://vitalik.ca/general/2023/08/16/communitynotes.html).
+**Factchain** is an independent and global truth layer that supports all social platforms. It provides user contributions in an immutable and transparent way, with no central authority to trust.
 
-X's community notes have opened the way. Still, social media posts deserve an independent and global truth layer that supports all social platforms, with immutable and transparent contributions and no central authority to trust.The protocol should incentivize users to provide notes and ratings. This is Factchain Community.
+Factchainers can add context to any post, in the form of **Notes** that will be rated by the community.
 
-**1 - Why become a Factchainer?**
+Useful **Notes** are shown to all users, helping them navigate real and fake news.
 
-Active factchainers are truth guardians, putting their ETH where their mouth is. The protocol rewards them when they act honestly and slashes them otherwise. More details will follow in chapter 3.
+For their work, **Note** **Creators** and **Raters** are rewarded by the Factchain protocol, incentivising quality contributions.
 
-These economic incentives help secure the network, discouraging the collusion of malicious actors willing to push lousy content. Factchain Community is a fact-checking protocol, meaning there is no room for subjectivity. The protocol should prioritize notes supported by one or more external links to credible sources, convincingly demonstrating their accuracy.
+[Join the faction!](https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl)
 
-Passive and active factchainers enjoy an augmented vision of their favorite social networks. They view posts with community notes and are consequently less subject to misinformation.
+# Get started
 
-The protocol rewards note creators with a unique NFT tradable on Opensea and Blur. Want to collect truth fragments that contradict influential personalities? More details will follow in chapter 5. Factchain Community is an excellent opportunity to earn ETH while serving the public interest.
-
-Make it count, Make it fun, Make it worth it.
-Join the faction.
-
-**2 - Getting Started**
 <li>
-Download the browser extension (compatible with Chrome and Brave)
+Download the [Factchain extension](https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl) (compatible with Chrome, Brave, and Arc)
+_Please exercise caution when downloading the Factchain extension to avoid potential fraudulent versions that might generate malicious transactions_ ⚠️
 </li>
 <li>
 Download Metamask
@@ -45,11 +38,41 @@ Visit <a href="https://twitter.com/home">X</a> More socials will come (<a href="
 Connect your Sepolia account to MetaMask.
 </li>
 <li>
-Enjoy a refreshing social network experience enriched with community notes.
+Enjoy a refreshing social network experience enriched with contextual Factchain Notes.
 </li>
 <br/><br/>
 
-**3 - Create/Rate a Note**
+*TODO: show examples of what it will look like (gifs)*
+
+# Why Factchain?
+
+Misinformation online is the number one threat to user experience, and society at large. All content platforms have their own approach to solving the "fake news" problem, but their centralized efforts have yet to prove helpful while raising concerns about censorhip. Most existing solutions are closed source. Their decision making (human or algorithmic) is opaque and cannot be audited. As users we are asked to blindly trust that social media companies are not taking sides when it comes to content moderation, a tall ask given their less than glorious track record.
+
+By making users the main moderators and openning up the [Community Notes](https://help.twitter.com/en/using-x/community-notes) process, Twitter/X has made a step in the right direction:
+X relies on volunteers to provide context on the posts they see on their timeline by creating "Notes", and to rate the usefulness and quality of other Notes. By running these "Ratings" through a publicly reviewable algorithm, it then gets to decide which Note is or isn't worth showing to its large userbase.
+
+While this approach is the best in the market, it falls short of the mark in a few ways:
+First, if you disagree with X's algorithm, there is no way for you to propose a modified version of it that you may consider fairer.
+Second, it is impossible to audit the data used by the algorithm as X ultimately controls the storing and accessing of both Notes and Ratings.
+Finally, Community Notes are limited to X and they cannot be easily extended to support other platforms in their current form.
+
+By putting Notes on-chain, Factchain goes one big step further and gives you control to make a better, more open, fact checking tool.
+
+# How does it work?
+
+Anyone with an Ethereum address can create and rate Factchain Notes by calling our [Factchain Contract](https://sepolia.etherscan.io/address/0x3b5946b3bd79c2b211e49c3149872f1d66223ae7).
+
+We regularly run an algorithm to give Notes a final unified rating.
+
+All notes and ratings are stored forever on-chain, which makes it easy for anyone to audit them and build a competing finalisation algorithm.
+
+Creating and rating Notes requires an ETH stake. The funds remain locked in the contract until the finalisation period concludes, at which point they are distributed between all participants depending on the final rating of the Note: The better the Note, the better the rewards, but bad Notes will get you slashed. The goal is to give an incentive to users to create meaningful and useful Notes.
+
+Notes that are deemed useful by the community are shown under their posts, providing context and nuance when navigating social media platforms.
+
+- TODO: Quick diagram explaining the parts?
+
+## Create/Rate a Note
 
 A note is a text that complements a social media post identified by a URL.
 A rating is a number between 1 and 5 to judge the usefulness of a note.
@@ -63,13 +86,13 @@ The Factchain web browser extension is responsible for crafting the transactions
 
 _Please exercise caution when downloading the FactChain extension to avoid potential fraudulent versions that might generate malicious transactions_ ⚠️
 
-**4 - Rewards & Slash**
+## Rewards & Slash
 
 In a set period after the note creation (i.e., the note auction period), the protocol runs the scoring algorithm to assign the note its final rating. When a note surpasses the earning threshold, the protocol returns the creator's initial stake along with a reward, computed in WEI using the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L113C20-L113C20). Conversely, if a note falls below the earning threshold, the protocol returns the initial stake with a slight reduction, expressed as a slash in WEI through the following [formula](https://github.com/factchain/factchain-community/blob/61eb95b29882c93344d1837d976a416ccd77ceec/fc-community-contracts/src/FactChainCommunity.sol#L120). The raters are rewarded or slashed based on how close their rating is to the final score.
 
 **Disclaimer $> For the launch on testnet, we oversimplified the scoring algorithm to an average of all note ratings, set the note auction period to 48 hours, and fixed the earning threshold arbitrarily to 3. The reward and slash logic could also evolve before the Factchain launch on mainnet. We expect to learn from users to develop the ideal strategy.**
 
-**5 - Collect Factchain Truth Fragments**
+## Collect Factchain Truth Fragments
 
 After the note finalization phase, Factchain automatically sends an NFT to the creator, regardless of the final score. The NFT is an ERC-721 token with the following metadata pushed to IPFS:
 
@@ -82,8 +105,21 @@ After the note finalization phase, Factchain automatically sends an NFT to the c
 {: refdef}
 <br/><br/>
 
-**Bonus - Mint X community notes**
+## Bonus - Mint X community notes
 
 To introduce Factchain to a broader audience, we have enabled the minting of every X community note as ERC-1155 tokens. Each community note is identified by its unique URL [https://twitter.com/i/birdwatch/n/](https://twitter.com/i/birdwatch/n/)\<noteID\> mapping to an NFTs collection on-chain, with a random token supply ranging from 1 to 42. Minting one or several of them does not grant any creatorship on the note but makes you one of the happy few owners of its bound Factchain NFT, with attributes described in chapter 5. (AI-generated image, OpenSea-compliant metadata)
 
 The mint price starts at 0.0001 ETH (approximately 2.20 US dollars when writing).
+
+# What's next?
+
+*TODO: build this section*
+
+- more socials
+- more wallets + metamask snap
+- better tokenomics
+- mainnet
+
+# Get in touch
+
+*TODO: links to our socials*
