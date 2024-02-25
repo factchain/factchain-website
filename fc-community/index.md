@@ -19,7 +19,7 @@ While X's community notes have paved the way, their approach stills falls short 
 - it is impossible to audit the data used by the algorithm as X ultimately controls the storing and accessing of both Notes and Ratings.
 - it is limited to X and cannot be easily extended to other platforms.
 
-**Factchain: the Ethereum-based Truth Layer** 
+# **Factchain: an Ethereum-Based Truth Layer** 
 
 Factchain is an immutable and transparent truth layer that supports all social platforms. It is permissionless and devoid of any central authority. 
 
@@ -29,7 +29,7 @@ Useful **Notes** become visible to all Factchain users, enhancing their social m
 
 For their work, **Note** **Creators** and **Raters** are rewarded by the Factchain protocol, incentivising quality contributions.
 
-# How does Factchain work?
+## How Does Factchain work?
 
 Anyone with an Ethereum address can create and rate Factchain Notes by calling the [Factchain Contract](https://sepolia.etherscan.io/address/0x3b5946b3bd79c2b211e49c3149872f1d66223ae7).
 
@@ -41,7 +41,7 @@ Creating and rating Notes requires an ETH stake. The funds remain locked in the 
 
 Notes that are deemed useful by the community are shown under their posts, providing context and nuance when navigating social media platforms.
 
-**Put Your ETH Where Your Mouth Is. Join the Guardians of Truth.**
+# **Put Your ETH Where Your Mouth Is. Join the Guardians of Truth.**
 As a Factchainer, you become a guardian of truth, backing your contributions with ETH. 
 
 These economic incentives are designed to secure the network against collusion and the spread of misinformation. The Factchain Community operates on a fact-checking protocol that leaves no room for subjectivity, favoring notes that are supported by credible sources and demonstrable accuracy.
