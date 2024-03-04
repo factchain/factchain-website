@@ -66,22 +66,22 @@ Factchainers benefit from an enhanced experience on their favorite social networ
 ##  **1 - Getting Started**
 <ul class='container' style='display list-item;'>
 <li>
-    <a href="https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl">Download the Factchain browser extension</a>
+    <a href="https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl">Download the Factchain browser extension</a>.
 </li>
 <li>
-    <a href="https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr">Download the Metamask browser extension</a>
+    <a href="https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr">Download the Metamask browser extension</a>.
 </li>
 <li>
-    Create a Sepolia account (Factchain is only available on testnet, mainnet TBA)
+    Create a Sepolia account. (Factchain is only available on testnet, mainnet TBA)
 </li>
 <li>
-    <a href="https://sepoliafaucet.com/">Get some test ETH</a>
+    <a href="https://sepoliafaucet.com/">Get some test ETH.</a>
 </li>
 <li>
     Visit <a href="https://twitter.com/home">X</a>. More socials will come (<a href="https://warpcast.com/">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
 </li>
 <li>
-    Enjoy a refreshing social network experience enriched with community notes
+    Enjoy a refreshing social network experience enriched with community notes.
 </li>
 </ul>
 <br>
@@ -107,7 +107,7 @@ Once the note is finalized, Factchain issues an NFT to the note's writer, irresp
 
 <ul class='container' style='display list-item;'>
 <li>
-The content of the note
+The content of the note.
 </li>
 <li>
 A unique AI-generated image derived from the note.
@@ -124,7 +124,7 @@ Attributes such as the final score and the social media post URL, following the 
 <br>
 
 ## **5 - Collect Factchain Truth Fragments**
-Factchain raters involved in finalizing a note also receive a ERC-1155 limited edition version of the writer NFT. Anyone can mint one for a few wei (The minting fee is set at 0.001 ETH at the time of writing), to show their support to the writer, and collect legendary truth fragments. The mint supply for each note is capped to 42. You should ask Deep Thought why.
+Raters who participate in finalizing a note through Factchain also receive an ERC-1155 limited edition version of the writer's NFT. Anyone can mint one for a few wei (The minting fee is set at 0.001 ETH at the time of writing), to collect legendary truth fragments while also demonstrate support for both the writer and Factchain. The revenue generated from minting these NFTs is shared between the note creator and the Factchain protocol. The mint supply for each note is capped to 42. You should ask Deep Thought why.
 
 
 ## **6 - Support X community notes authors**
