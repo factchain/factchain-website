@@ -29,5 +29,5 @@ You can find the source code for Factchain in its [GitHub repository](https://gi
 
 <br>
 
-Please contact us on [Warpcast](https://warpcast.com/factchain) or [X](https://twitter.com/factchaintech) for any bug report or feature suggestion you may have. ⭐
+Please contact us on [Warpcast](https://warpcast.com/factchain) or [X](https://twitter.com/factchaintech) for any bug report or feature suggestion you may have.
 

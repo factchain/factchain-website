@@ -4,3 +4,25 @@
 
 @import "dark";
 @import "base";
+
+
+span#factchain-title {
+    color: #00adb5 !important;
+    font-size: 4em;
+}
+.link {
+  color: #00adb5;
+  cursor: pointer;
+}
+
+a.link:visited {
+  color: #00adb5;
+}
+
+li a {
+  color: #00adb5;
+}
+
+a {
+  color: #00adb5;
+}

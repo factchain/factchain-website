@@ -5,15 +5,11 @@
 layout: home
 ---
 
-<font size="10">
-Factchain 
-</font>
-
+<span id="factchain-title">Factchain</span>
 
 # **The Fight Against Online Misinformation Still Rages On**
 <br>
-Misinformation on social media has plagued the user experience for years, and threatens to erode the fabric of our digital society. Centralized moderation efforts have not been effective in addressing the issue so far. A standout innovation has been the community notes feature on X, which allows contributors to add contextual notes to any post, and to rate the usefulness of notes submitted by others. An open-source algorithm then periodically evaluates these notes based on their ratings, making only those exceeding a certain score visible to all users.
-[Read Vitalik's blog post for details](https://vitalik.ca/general/2023/08/16/communitynotes.html).
+Misinformation on social media has plagued the user experience for years, and threatens to erode the fabric of our digital society. Centralized moderation efforts have not been effective in addressing the issue so far. A standout innovation has been the community notes feature on X, which allows contributors to add contextual notes to any post, and to rate the usefulness of notes submitted by others. An open-source algorithm then periodically evaluates these notes based on their ratings, making only those exceeding a certain score visible to all users. [Read Vitalik's blog post for details](https://vitalik.ca/general/2023/08/16/communitynotes.html).
 While X's community notes have paved the way, their approach still falls short in several aspects:
 <ul class='container' style='display list-item;'>
 <li>
@@ -41,9 +37,11 @@ Useful **Notes** become visible to all Factchain users, enhancing their social m
 
 For their work, **Note** **Creators** and **Raters** are rewarded by the Factchain protocol, incentivising quality contributions.
 
-## How Does Factchain work?
+## **How Does Factchain work?**
 <br>
-Anyone with an Ethereum address can create and rate Factchain Notes by calling the [Factchain Community contract](https://sepolia.etherscan.io/address/0x3b5946b3bd79c2b211e49c3149872f1d66223ae7).
+Anyone with an Ethereum address can create and rate Factchain Notes by calling the 
+<a href="https://sepolia.etherscan.io/address/0x3b5946b3bd79c2b211e49c3149872f1d66223ae7">Factchain Community contract</a>
+
 
 A rating algorithm runs regularly to assess ratings and give notes their final usefulnesss score.
 
