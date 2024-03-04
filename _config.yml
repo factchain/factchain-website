@@ -32,7 +32,7 @@ header_pages:
   - about.md
 
 style: dark
-footer: 'follow us on <a href="https://twitter.com/factchaintech">X</a>'
+footer: 'follow us on <a href="https://warpcast.com/factchain">Warpcast</a> and <a href="https://twitter.com/factchaintech">X</a>'
 
 markdown: kramdown
 remote_theme: b2a3e8/jekyll-theme-console

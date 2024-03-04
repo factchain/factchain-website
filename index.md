@@ -124,7 +124,7 @@ Attributes such as the final score and the social media post URL, following the 
 <br>
 
 ## **5 - Collect Factchain Truth Fragments**
-Raters who participate in finalizing a note through Factchain also receive an ERC-1155 limited edition version of the writer's NFT. Anyone can mint one for a few wei (The minting fee is set at 0.001 ETH at the time of writing), to collect legendary truth fragments while also demonstrate support for both the writer and Factchain. The revenue generated from minting these NFTs is shared between the note creator and the Factchain protocol. The mint supply for each note is capped to 42. You should ask Deep Thought why.
+Raters who participate in finalizing a note through Factchain also receive an ERC-1155 limited edition version of the writer's NFT. Anyone can mint one for a few wei (The minting fee is set at 0.001 ETH at the time of writing), to collect legendary truth fragments while also demonstrate support for both the writer and Factchain. The revenue generated from minting these NFTs is shared between the note creator and the Factchain protocol. The mint supply for each note is capped at 42. You should ask Deep Thought why.
 
 
 ## **6 - Support X community notes authors**
@@ -137,7 +137,7 @@ If you'd like to show support to anons like "Focused Earth Owl", that challenge 
 Each community note is identified by its unique URL https://twitter.com/i/birdwatch/n/noteID mapping to an NFT collection on-chain, with a random token supply ranging from 1 to 42.
 
 X community notes’ authors are anonymous. Factchain can’t derive an X user ID from an X community note author ID.
-Until the community finds a [smooth ZKP solution to automate the claiming process](https://medium.com/@yacine.badiss/proving-your-community-notes-identity-with-tlsnotary-d224ebe41048), if you’re the author, please reach out to claim your ETH rewards **$> contact at factchain.tech** ⭐
+Until the community finds a [smooth ZKP solution to automate the claiming process](https://medium.com/@yacine.badiss/proving-your-community-notes-identity-with-tlsnotary-d224ebe41048), if you’re the author, please reach out on [Warpcast](https://warpcast.com/factchain) or [X](https://twitter.com/factchaintech) to claim your ETH rewards.
 
 ## **7 - Factchainomics**
 **Coming soon**
