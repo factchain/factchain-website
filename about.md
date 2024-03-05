@@ -12,7 +12,7 @@ You can find the source code for Factchain in its [GitHub repository](https://gi
 
 **Deployed Contracts:**
 <ul class='container' style='display list-item;'>
-<li><a href="https://sepolia.etherscan.io/address/0x3b5946b3bd79c2B211E49c3149872f1d66223AE7">Factchain Core</a></li>
+<li><a href="https://sepolia.etherscan.io/address/0x3b5946b3bd79c2B211E49c3149872f1d66223AE7">Factchain Community</a></li>
 <li><a href="https://sepolia.etherscan.io/address/0x5818764B4272f4eCff170216abE99D36c0c41622">Factchain NFT</a></li>
 <li><a href="https://sepolia.etherscan.io/address/0xF9408EB2C2219E28aEFB32035c49d491880650A2">Factchain SFT</a></li>
 <li><a href="https://sepolia.etherscan.io/address/0xaC51f5E2664aa966c678Dc935E0d853d3495A48C">X community notes</a></li>
