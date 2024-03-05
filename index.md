@@ -64,22 +64,22 @@ Factchainers benefit from an enhanced experience on their favorite social networ
 ##  **1 - Getting Started**
 <ul class='container' style='display list-item;'>
 <li>
-    <a href="https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl">Download the Factchain browser extension</a>.
+    <a href="https://chromewebstore.google.com/detail/factchain-community/emgjjedibkjlocjmcjgkeolfkbcicbpl">Download the Factchain browser extension</a> (compatible with Chrome and Brave).
 </li>
 <li>
-    <a href="https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr">Download the Metamask browser extension</a>.
+    <a href="https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=fr">Install MetaMask</a>  (support for more wallets will follow).
 </li>
 <li>
-    Create a Sepolia account. (Factchain is only available on testnet, mainnet TBA)
+    Create a Sepolia account. (Factchain is currently available on testnet. Mainnet launch will be announced soon).
 </li>
 <li>
-    <a href="https://sepoliafaucet.com/">Get some test ETH.</a>
+    <a href="https://sepoliafaucet.com/">Get some test ETH here.</a>
 </li>
 <li>
-    Visit <a href="https://twitter.com/home">X</a>. More socials will come (<a href="https://warpcast.com/factchain">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
+    Explore <a href="https://twitter.com/home">X</a> and stay tuned for more platforms (<a href="https://warpcast.com/factchain">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>, etc.).
 </li>
 <li>
-    Enjoy a refreshing social network experience enriched with community notes.
+    Enjoy an enriched social network experience with community notes.
 </li>
 </ul>
 
