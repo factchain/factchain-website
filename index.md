@@ -99,7 +99,7 @@ Ratings, ranging from 1 to 5, assess a note's usefulness. Factchainers can rate 
 <br>
 ![rate note](assets/rateNote.gif)
 <br>
-Creating or rating a note initiates an Ethereum transaction to call the appropriate function from the Factchain Community contract. These actions require a stake: 0.001 ETH (~$20) for creating a note and 0.0001 ETH (~$2) for rating. Funds are locked in the contract until the note auction period ends, during which ratings are collected.
+Creating or rating a note initiates an Ethereum transaction to call the appropriate function from the Factchain Community contract. These actions require a stake: 0.001 ETH for creating a note and 0.0001 ETH for rating. Funds are locked in the contract until the note auction period ends, during which ratings are collected.
 
 All notes and ratings are permanently stored on the blockchain.
 
