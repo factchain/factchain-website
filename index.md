@@ -45,7 +45,7 @@ Anyone with an Ethereum address can create and rate Factchain Notes by calling t
 
 A rating algorithm runs regularly to assess ratings and give notes their final usefulnesss score.
 
-All notes and ratings are stored forever on-chain, which makes it easy for anyone to audit them and build a competing note scoring algorithm.
+All notes and ratings are stored forever onchain, which makes it easy for anyone to audit them and build a competing note scoring algorithm.
 
 Creating and rating Notes requires an ETH stake. The funds remain locked in the contract until the finalisation period concludes, at which point they are distributed between all participants depending on the final rating of the Note: The better the Note, the better the rewards, but bad Notes will get you slashed. The goal is to give an incentive to users to create meaningful and useful Notes.
 
@@ -148,7 +148,7 @@ If you'd like to show support to anons like "Focused Earth Owl", that challenge 
 <br>
 ![collectXNote](assets/collectXNote.gif)
 <br>
-Each community note is identified by its unique URL https://twitter.com/i/birdwatch/n/noteID mapping to an NFT collection on-chain, with a random token supply ranging from 1 to 42.
+Each community note is identified by its unique URL https://twitter.com/i/birdwatch/n/noteID mapping to an NFT collection onchain, with a random token supply ranging from 1 to 42.
 
 X community notes’ authors are anonymous. Factchain can’t derive an X user ID from an X community note author ID.
 Until the community finds a [smooth ZKP solution to automate the claiming process](https://medium.com/@yacine.badiss/proving-your-community-notes-identity-with-tlsnotary-d224ebe41048), if you’re the author, please reach out on [Warpcast](https://warpcast.com/factchain) or [X](https://twitter.com/factchaintech) to claim your ETH rewards.
