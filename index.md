@@ -9,7 +9,7 @@ layout: home
 
 # **The Fight Against Online Misinformation Rages On**
 <br>
-Misinformation on social media has plagued the user experience for years, and threatens to erode the fabric of our digital society. Centralized moderation efforts have not been effective in addressing the issue so far. A standout innovation has been the community notes feature on X, which allows contributors to add contextual notes to any post, and to rate the usefulness of notes submitted by others. An open-source algorithm then periodically evaluates these notes based on their ratings, making only those exceeding a certain score visible to all users. [Read Vitalik's blog post for details](https://vitalik.ca/general/2023/08/16/communitynotes.html).
+Misinformation on social media has plagued the user experience for years, and threatens to erode the fabric of our digital society. Centralized moderation efforts have not been effective in addressing the issue so far. A standout innovation has been the community notes feature on X, which allows contributors to add contextual notes to any post, and to rate the usefulness of notes submitted by others. An open-source algorithm then periodically evaluates these notes based on their ratings, making only those exceeding a certain score visible to all users. [Read Vitalik's blog post for details](https://vitalik.eth.limo/general/2023/08/16/communitynotes.html).
 While X's community notes have paved the way, their approach still falls short in several aspects:
 <ul class='container' style='display list-item;'>
 <li>
@@ -76,7 +76,7 @@ Factchainers benefit from an enhanced experience on their favorite social networ
     <a href="https://sepoliafaucet.com/">Get some test ETH.</a>
 </li>
 <li>
-    Visit <a href="https://twitter.com/home">X</a>. More socials will come (<a href="https://warpcast.com/">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
+    Visit <a href="https://twitter.com/home">X</a>. More socials will come (<a href="https://warpcast.com/factchain">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>...)
 </li>
 <li>
     Enjoy a refreshing social network experience enriched with community notes.
