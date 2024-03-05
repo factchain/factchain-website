@@ -73,7 +73,7 @@ Factchainers benefit from an enhanced experience on their favorite social networ
     Create a Sepolia account. (Factchain is currently available on testnet. Mainnet launch will be announced soon).
 </li>
 <li>
-    <a href="https://sepoliafaucet.com/">Get some test ETH here.</a>
+    Get some test ETH <a href="https://sepoliafaucet.com/">here</a> or mine some <a href=" https://sepolia-faucet.pk910.de/">here</a>.
 </li>
 <li>
     Explore <a href="https://twitter.com/home">X</a> and stay tuned for more platforms (<a href="https://warpcast.com/factchain">Warpcast</a>, <a href="https://www.youtube.com/">Youtube</a>, etc.).
