@@ -7,13 +7,13 @@ layout: home
 
 <span id="factchain-title">Factchain</span>
 
-# **The Fight Against Online Misinformation Still Rages On**
+# **The Fight Against Online Misinformation Rages On**
 <br>
 Misinformation on social media has plagued the user experience for years, and threatens to erode the fabric of our digital society. Centralized moderation efforts have not been effective in addressing the issue so far. A standout innovation has been the community notes feature on X, which allows contributors to add contextual notes to any post, and to rate the usefulness of notes submitted by others. An open-source algorithm then periodically evaluates these notes based on their ratings, making only those exceeding a certain score visible to all users. [Read Vitalik's blog post for details](https://vitalik.ca/general/2023/08/16/communitynotes.html).
 While X's community notes have paved the way, their approach still falls short in several aspects:
 <ul class='container' style='display list-item;'>
 <li>
-it relies on a selected set of volunteers for contributions.
+they rely on a selected set of volunteers for contributions.
 </li>
 <li>
 if you disagree with X's algorithm, there is no way for you to propose a better version.
@@ -82,16 +82,29 @@ Factchainers benefit from an enhanced experience on their favorite social networ
     Enjoy a refreshing social network experience enriched with community notes.
 </li>
 </ul>
+
+<br>
+
+![login](assets/login.gif)
+
 <br>
 
 ## **2 - Create and Rate Notes**
-A note is a textual addition to a social media post, identified by its URL. Ratings, ranging from 1 to 5, assess a note's usefulness. Factchainers can rate a note only once and cannot rate their own notes.
+A note is a textual addition to a social media post, identified by its URL.
+<br>
+![create note](assets/createNote.gif)
+<br>
 
+Ratings, ranging from 1 to 5, assess a note's usefulness. Factchainers can rate a note only once and cannot rate their own notes.
+<br>
+![rate note](assets/rateNote.gif)
+<br>
 Creating or rating a note initiates an Ethereum transaction to call the appropriate function from the Factchain Community contract. These actions require a stake: 0.001 ETH (~$20) for creating a note and 0.0001 ETH (~$2) for rating. Funds are locked in the contract until the note auction period ends, during which ratings are collected.
 
 All notes and ratings are permanently stored on the blockchain.
 
 The Factchain browser extension facilitates transaction creation and interacts with MetaMask for signature and broadcasting. Future updates will expand wallet compatibility.
+
 
 **Caution:** Ensure you download the genuine Factchain extension to avoid malicious versions that could generate harmful transactions. ⚠️
 
@@ -123,6 +136,9 @@ Attributes such as the final score and the social media post URL, following the 
 
 ## **5 - Collect Factchain Truth Fragments**
 Raters who participate in finalizing a note through Factchain also receive an ERC-1155 limited edition version of the writer's NFT. Anyone can mint one for a few wei (The minting fee is set at 0.001 ETH at the time of writing), to collect legendary truth fragments while also demonstrate support for both the writer and Factchain. The revenue generated from minting these NFTs is shared between the note creator and the Factchain protocol. The mint supply for each note is capped at 42. You should ask Deep Thought why.
+<br>
+![collect](assets/collectFactchainNote.gif)
+<br>
 
 
 ## **6 - Support X community notes authors**
@@ -130,7 +146,7 @@ As a tribute to the X community note writers, we have also made it possible to m
 
 If you'd like to show support to anons like "Focused Earth Owl", that challenge the statements of influential figures and yet don't have a single wei from Elon to show for it, go mint this [gem](https://twitter.com/i/birdwatch/n/1730273287358263482) and all your [favorite community notes](https://twitter.com/cnviolations).
 <br>
-![Collector's item](assets/biden_collect_it.png)
+![collectXNote](assets/collectXNote.gif)
 <br>
 Each community note is identified by its unique URL https://twitter.com/i/birdwatch/n/noteID mapping to an NFT collection on-chain, with a random token supply ranging from 1 to 42.
 
