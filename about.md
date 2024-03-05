@@ -24,7 +24,6 @@ You can find the source code for Factchain in its [GitHub repository](https://gi
 <li> <a href="https://twitter.com/YBadiss">Yacine B. Badiss</a></li>
 <li> <a href="https://twitter.com/rektorship">Pierre HAY</a></li>
 <li> <a href="https://twitter.com/copeverse">Baptiste Iafrate</a></li>
-<li> <a href="https://twitter.com/loomisBroom">Mériadec Pillet</a></li>
 </ul>
 
 <br>
