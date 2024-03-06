@@ -29,6 +29,7 @@ url: "https://factchain.tech"
 # Build settings
 header_pages:
   - index.md
+  - getting-started.md
   - about.md
 
 style: dark
