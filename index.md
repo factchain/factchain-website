@@ -45,7 +45,7 @@ Anyone with an Ethereum address can create and rate Factchain Notes by calling t
 <a href="https://sepolia.etherscan.io/address/0x3b5946b3bd79c2b211e49c3149872f1d66223ae7">Factchain Community contract</a>
 
 
-A rating algorithm runs regularly to assess ratings and give notes their final usefulnesss score.
+A rating algorithm runs regularly to assess ratings and give notes their final usefulness score.
 
 All notes and ratings are stored forever onchain, which makes it easy for anyone to audit them and build a competing note scoring algorithm.
 
