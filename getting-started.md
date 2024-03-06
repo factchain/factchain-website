@@ -24,6 +24,7 @@ permalink: /getting-started/
 </li>
 <li>
     Enjoy an enriched social network experience with community notes.
+    Read the <a href="{{ site.baseurl }}{% link index.md %}#2---create-and-rate-notes">create and rate notes</a> manifesto section to have skin in the game.
 </li>
 </ul>
 <br>
