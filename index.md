@@ -119,7 +119,7 @@ Raters who participate in finalizing a note through Factchain also receive an ER
 ## **6 - Support X community notes authors**
 As a tribute to the X community note writers, we have also made it possible to mint every X community note as an ERC-1155 token.
 
-If you'd like to show support to anons like "Focused Earth Owl", that challenge the statements of influential figures and yet don't have a single wei from Elon to show for it, go mint this [gem](https://twitter.com/i/birdwatch/n/1730273287358263482) and all your [favorite community notes](https://twitter.com/cnviolations).
+If you'd like to show support to anons like "Focused Earth Owl", that challenge the statements of influential figures and yet don't have a single wei from Elon to show for it, go mint this [gem](https://twitter.com/i/birdwatch/n/1730273287358263482) and all your [favorite community notes](https://twitter.com/HelpfulNotes).
 <br>
 ![collectXNote](assets/collectXNote.gif)
 <br>
